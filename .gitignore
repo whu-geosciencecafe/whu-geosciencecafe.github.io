@@ -1,0 +1,7 @@
+.DS_Store
+_site/
+organization-profile/
+__pycache__/
+
+# Original unused template image retained locally.
+assets/geospatial-hero.png
