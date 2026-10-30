@@ -50,6 +50,10 @@ python -m http.server 8000 --directory _site
 
 统计为社团 2026 年展示资料口径，并非实时累计。本网站展示活动回顾，没有虚构报名、招新或岗位。联系方式沿用原网站 GitHub 入口，不新增未核实的微信、邮箱、地址或成员私人联系方式。
 
+所有页面页脚包含 OpenStreetMap 交互地图，显示武汉大学周边，支持拖动、缩放与打开大图。地图为校园概览，不标注未经确认的社团办公室。可在 `partials/footer.html` 修改地图的 `bbox` 范围及大图链接；地图延迟加载，保留提供方署名。地图功能需要访问 OpenStreetMap。
+
+手机竖屏首页将照片放在标题之后、介绍文字之前，使用 3:2 的图片比例，让首屏可见完整合影；桌面保留左右分栏。
+
 ## 部署
 
 保留原 GitHub Pages 方式。PR 自动构建并检查页面、链接和 JavaScript；推送或合并到 `main` 后，构建通过再部署 `_site/`。PR 不触发线上部署。工作流为 `.github/workflows/pages.yml`，仓库 Pages 来源应为 **GitHub Actions**。
