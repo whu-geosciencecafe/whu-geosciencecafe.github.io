@@ -1,0 +1,83 @@
+[
+  {
+    "id": "research-stories", "category": "academic", "categoryLabel": "学术讲座", "period": "学术交流系列",
+    "title": "从科研故事，看见学术的可能",
+    "summary": "听李德仁院士分享科研故事与留学经历，让前沿学术与青年成长相遇。",
+    "image": "assets/photos/conversation.webp", "imageAlt": "李德仁在 GeoScience Café 现场与成员交流",
+    "paragraphs": ["社团邀请顶尖学者分享前沿研究，也交流研究道路上的选择与经历。从一段科研故事开始，讨论如何发现问题、开展探索。", "讲座主题涵盖通导遥算一体化、定量遥感参数反演与重建、夜间灯光遥感，以及低空智能时空底座平台建设。"],
+    "highlights": ["李德仁院士：我的科研故事与留学经历", "王密教授：通导遥算一体化遥感信息实时智能服务", "袁强强教授：定量遥感参数反演与重建"],
+    "sourceSlides": [4, 6]
+  },
+  {
+    "id": "agent-hackathon", "category": "innovation", "categoryLabel": "创新实践", "period": "2025.06",
+    "title": "把想法做成一个 AI Agent",
+    "summary": "与 Datawhale、字节跳动扣子空间团队一起，把前沿技术带进现场开发。",
+    "image": "assets/photos/agent-hackathon.webp", "imageAlt": "AI Agent 现场开发比赛的参与者合影",
+    "paragraphs": ["2025 年 6 月，社团联合 Datawhale 与字节跳动扣子空间团队，举办校内首个大型 AI Agent 现场开发比赛。", "线上与线下共 1000 人次参与，诞生数十个优秀 Agent 作品。大家从问题出发，在现场把想法转化为可以演示的应用。"],
+    "highlights": ["校企协同，连接学习与实践", "线上与线下共 1000 人次参与", "数十个优秀 Agent 作品"],
+    "sourceSlides": [12]
+  },
+  {
+    "id": "vibe-coding", "category": "innovation", "categoryLabel": "创新实践", "period": "社团文化节",
+    "title": "用代码，回应你的好奇心",
+    "summary": "联合 TRAE 团队与武汉 AI 圈，开展 Vibe Coding 黑客马拉松与 AI 前沿讲座。",
+    "image": "assets/photos/coding.webp", "imageAlt": "Vibe Coding 现场活动参与者在会场合影",
+    "paragraphs": ["社团联合字节跳动 TRAE 团队、武汉 AI 圈，举办校内首个大型 Vibe Coding 黑客马拉松比赛。现场编程与 AI 前沿讲座共同构成社团文化节活动。", "线下 400 余人参与，提交 50 余份优秀作品。交流从理解技术继续延伸到动手实践，探索 AI 时代的创造方式。"],
+    "highlights": ["线下 400 余人参与", "提交 50 余份优秀作品", "大型现场编程比赛与 AI 前沿讲座"],
+    "sourceSlides": [13]
+  },
+  {
+    "id": "summer-school", "category": "exchange", "categoryLabel": "开放交流", "period": "国际暑期学校",
+    "title": "在珞珈，与世界相遇",
+    "summary": "28 个国家的学生与志愿者，在地球空间信息科学国际暑期学校展开跨文化交流。",
+    "image": "assets/photos/summer-school.webp", "imageAlt": "国际暑期学校学生与志愿者的活动合影",
+    "paragraphs": ["地球空间信息科学国际暑期学校连接不同国家、学科与文化。来自 28 个国家的 120 名学生与志愿者参与其中。", "通过暑期学校文化节等 9 场国际交流活动，社团将校园变成面对面认识世界的窗口，让在地国际化教育发生在共同参与的现场。"],
+    "highlights": ["28 个国家", "120 名学生与志愿者", "9 场国际交流活动"],
+    "sourceSlides": [10]
+  },
+  {
+    "id": "weather-science", "category": "science", "categoryLabel": "科普传播", "period": "气象科普系列",
+    "title": "走近风暴，读懂身边的天气",
+    "summary": "从“中国气象爱好者”到“风羽酱-sdk”，和一线科普创作者一起探索气象科学。",
+    "image": "assets/photos/weather.webp", "imageAlt": "气象科普分享活动结束后的现场合影",
+    "paragraphs": ["“中气爱：气象科普最前线”与“游弋风暴之中：风羽酱-sdk 科普分享”，把公众关心的天气问题带到交流现场。", "中气爱活动线下参与 240 余人，线上参与 1000 余人。风羽酱-sdk 科普分享受到《央视新闻》栏目采访，让气象话题触达更多人。"],
+    "highlights": ["中国气象爱好者：气象科普最前线", "游弋风暴之中：风羽酱-sdk 科普分享", "面对面交流科学观察与科普经验"],
+    "sourceSlides": [11]
+  },
+  {
+    "id": "academic-writing", "category": "academic", "categoryLabel": "学术讲座", "period": "科研能力提升",
+    "title": "让研究被看见，让表达更清楚",
+    "summary": "从科技论文写作、投稿到 AI 规范使用，探索研究成果的有效传播。",
+    "image": "assets/photos/research.webp", "imageAlt": "学术分享现场，讲者与成员围桌讨论",
+    "paragraphs": ["围绕科研写作与学术能力提升，社团组织编辑视角下的科技论文写作、投稿与 AI 规范使用交流，也关注英文研究成果的有效传播。", "“数智赋能论文写作，别只让 AI 搬砖啦”等话题，将具体的研究需求与工具实践放在一起讨论。"],
+    "highlights": ["科技论文的写作、投稿与 AI 规范使用", "Disseminating Research Results: Essentials of Effective Publishing", "数智赋能论文写作"],
+    "sourceSlides": [7, 15]
+  },
+  {
+    "id": "association-exchange", "category": "exchange", "categoryLabel": "开放交流", "period": "学术与实践",
+    "title": "走出校园，在同行中成长",
+    "summary": "联动校、省、国三级科协，拓展学术视野，把交流带到更广阔的现场。",
+    "image": "assets/photos/science-association.webp", "imageAlt": "成员参加科协交流活动的集体合影",
+    "paragraphs": ["社团立项首批中国科协“大学生社团计划”，联动校、省、国三级科协，开展学术与实践活动。", "获得中国计算机学会等 4 个一级学会支持，托举 40 余人参与学会活动。成员在不同城市的交流中，接触更广泛的学术与实践议题。"],
+    "highlights": ["首批中国科协“大学生社团计划”", "4 个一级学会支持", "托举 40 余人参与学会活动"],
+    "sourceSlides": [8]
+  },
+  {
+    "id": "science-outreach", "category": "science", "categoryLabel": "科普传播", "period": "大手牵小手",
+    "title": "把科学的种子，种进好奇心",
+    "summary": "为大、中、小学生开展科普讲解，让遥感测绘与空间科学走进更多人的生活。",
+    "image": "assets/photos/outreach.webp", "imageAlt": "学生在科普活动中参观科学展品并聆听讲解",
+    "paragraphs": ["社团开展多期“大手牵小手”活动，为 300 余位大、中、小学生带来科普讲解。", "成员走进测绘遥感科学家精神教育基地与卫星地面站开展讲解，连接科学知识与科学家故事。相关社会服务曾获“光明日报”“极目新闻”等媒体报道。"],
+    "highlights": ["多期“大手牵小手”活动", "300 余位大、中、小学生", "知识传播与科学精神教育"],
+    "sourceSlides": [17, 18]
+  },
+  {
+    "id": "research-book", "category": "academic", "categoryLabel": "学术讲座", "period": "科研故事系列",
+    "title": "让一代人的科研经验，成为下一代的起点",
+    "summary": "与武大出版社合作出版《我的科研故事》，让交流的价值从现场延伸到书页。",
+    "image": "assets/photos/books.webp", "imageAlt": "《我的科研故事》系列图书在新书活动现场展示",
+    "paragraphs": ["科研故事不仅留在讲座现场。社团与武大出版社合作出版《我的科研故事》，把科学探索中的经历、思考与经验传递给更多读者。", "通过新书发布与开放交流，在不同代际的科研工作者和青年学生之间，延续关于学术成长的对话。"],
+    "highlights": ["与武大出版社合作出版", "《我的科研故事》系列", "从现场对话到持续阅读"],
+    "sourceSlides": [15]
+  }
+]

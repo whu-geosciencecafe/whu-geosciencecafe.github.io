@@ -1,0 +1,21 @@
+{
+  "pages": 6,
+  "activities": 9,
+  "gallery_photos": 12,
+  "responsive_widths_checked": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "browser_checks": [
+    "Activity category deep link and filtering",
+    "Activity dialog open and Escape close",
+    "Dialog focus return and scroll unlock",
+    "Photo category filtering and full image dialog",
+    "Mobile navigation expand and route to gallery"
+  ],
+  "validation": "Build, all local links/anchors/assets and JavaScript syntax passed",
+  "publication": "GitHub CLI authenticated; release proceeds through PR checks and GitHub Pages workflow."
+}

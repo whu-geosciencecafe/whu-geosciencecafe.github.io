@@ -1,36 +1,57 @@
-# WHU Geoscience Café · 地学咖啡馆
+# GeoScience Café · 武汉大学
 
-组织网站的源代码。围绕地球科学、空间信息与开放研究，分享知识、交流问题、共同探索。
+基于社团 2026 年展示资料重写的六页静态官网。首页采用社团深蓝与暖白配色、左右分栏实拍、衬线标题与社团故事叙事。活动与相册作为独立页面，支持类别筛选、详情弹窗和可分享的内容链接。
 
-- 网站：<https://whu-geosciencecafe.github.io/>
+- 正式网站：<https://whu-geosciencecafe.github.io/>
 - GitHub 组织：<https://github.com/whu-geosciencecafe>
-- 话题与反馈：[Issues](https://github.com/whu-geosciencecafe/whu-geosciencecafe.github.io/issues)
 
-## 本地预览
+## 本地构建与预览
 
-无需安装前端依赖，使用 Python 3：
+无需安装前端依赖。使用 Python 3：
 
 ```sh
-python3 scripts/build.py
-python3 -m http.server 8000 --directory _site
+python scripts/build.py
+python scripts/check_site.py
+python -m http.server 8000 --directory _site
 ```
 
-浏览器打开 <http://localhost:8000>。修改源文件后，重新运行构建命令并刷新。
+打开 <http://localhost:8000/>。修改源文件后重新构建并刷新。CSS 和 JavaScript 的内容哈希会自动更新 URL，避免浏览器使用旧版缓存。也可以直接打开 `_site/index.html` 浏览构建后的静态网站。
 
-## 内容维护
+## 文件结构
 
-- `index.html`：中文首页、交流主题、动态与参与入口。
-- `styles.css`：响应式布局、配色与排版。
-- `script.js`：移动端导航与键盘操作。
-- `assets/favicon.svg`：网站图标。
-- `scripts/build.py`：仅将网站运行所需文件复制到 `_site/`。
+| 文件 | 用途 |
+| --- | --- |
+| `index.html` | 共享 HTML 外壳、页面元数据、详情弹窗和数据嵌入位置 |
+| `pages/home.html` | 首页：社团主题、历史、精选活动、六个方向、国际交流、社团生活 |
+| `pages/events.html` | 活动档案页 |
+| `pages/about.html` | 社团历史与学术方向 |
+| `pages/gallery.html` | 社团相册页 |
+| `pages/growth.html` | 成长资源与成员毕业去向 |
+| `pages/partners.html` | 合作伙伴及对应项目 |
+| `partials/header.html`、`partials/footer.html` | 各页面共享导航和页脚 |
+| `data/activities.json` | 可由 agent 编辑的活动、摘要、详情、图片与来源页码 |
+| `data/gallery.json` | 可由 agent 编辑的照片、分类、说明与来源页码 |
+| `styles.css` | 全站主题、排版和响应式样式 |
+| `script.js` | 手机菜单、活动/相册筛选、详情弹窗、分享 URL 与焦点恢复 |
+| `assets/` | PPT 提取的社团标识与优化后的实拍 WebP 图片 |
+| `docs/asset-provenance.json` | 网页图片与 PPT 资产 ID、页码和裁剪区域的对应关系 |
+| `docs/content-sources.md` | 文案与数据来源口径 |
+| `scripts/build.py` | 生成六个完整静态页面、站点地图与 robots 文件 |
+| `scripts/check_site.py` | 验证所有页面、内部链接、锚点、图片和生成内容 |
 
-目前未公布具体活动安排、成员名单或联系方式。新增这些内容前请核实，不要把示例信息作为真实信息发布。请勿提交私人联系方式、访问凭据或未授权的个人资料。
+## 给维护 agent
+
+1. 文案在对应 `pages/*.html` 中编辑，公共导航与页脚在 `partials/` 中编辑。
+2. 增补活动时编辑 `data/activities.json`，保留稳定 `id`。分类为 `academic`、`innovation`、`exchange`、`science`。日期不详时使用系列名称，不补写日期。
+3. 增补照片时编辑 `data/gallery.json`。相册分类为 `academic`、`innovation`、`exchange`、`community`。
+4. 活动链接示例：`events.html?activity=agent-hackathon`。类别链接示例：`events.html?category=innovation`。相册支持 `gallery.html?category=exchange` 和 `gallery.html?photo=summer`。
+5. 上传优化后的图片到 `assets/photos/`，并在数据和溯源文件中记录真实说明、资产 ID 和来源页码。不要将 500MB 原始资产包或 PPT 提交到网站。
+6. 执行构建、校验和 `node --check script.js` 后检查浏览器。`_site/` 是构建输出，不应直接修改或提交。
+
+统计为社团 2026 年展示资料口径，并非实时累计。本网站展示活动回顾，没有虚构报名、招新或岗位。联系方式沿用原网站 GitHub 入口，不新增未核实的微信、邮箱、地址或成员私人联系方式。
 
 ## 部署
 
-推送到 `main` 自动运行 `.github/workflows/pages.yml`，构建后部署 GitHub Pages。也可在 Actions 中手动运行工作流。
+保留原 GitHub Pages 方式。PR 自动构建并检查页面、链接和 JavaScript；推送或合并到 `main` 后，构建通过再部署 `_site/`。PR 不触发线上部署。工作流为 `.github/workflows/pages.yml`，仓库 Pages 来源应为 **GitHub Actions**。
 
-仓库的 **Settings → Pages → Build and deployment → Source** 应为 **GitHub Actions**。默认网址为 <https://whu-geosciencecafe.github.io/>，尚未配置自定义域名。
-
-组织主页 README 位于独立的 [`.github` 仓库](https://github.com/whu-geosciencecafe/.github/blob/main/profile/README.md)，修改它不会触发网站部署。
+组织主页 README 位于独立的 `.github` 仓库，本项目不会修改该仓库。
