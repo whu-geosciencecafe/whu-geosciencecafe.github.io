@@ -1,0 +1,198 @@
+[
+  {
+    "file": "assets/photos/community.webp",
+    "source_asset": "image148",
+    "source_slides": [
+      21
+    ],
+    "original_size": [
+      8111,
+      5407
+    ]
+  },
+  {
+    "file": "assets/photos/founder.webp",
+    "source_asset": "image17",
+    "source_slides": [
+      4
+    ],
+    "original_size": [
+      782,
+      507
+    ]
+  },
+  {
+    "file": "assets/photos/conversation.webp",
+    "source_asset": "image20",
+    "source_slides": [
+      4
+    ],
+    "original_size": [
+      1763,
+      1175
+    ]
+  },
+  {
+    "file": "assets/photos/summer-school.webp",
+    "source_asset": "image67",
+    "source_slides": [
+      10
+    ],
+    "original_size": [
+      1920,
+      1080
+    ],
+    "crop_pixels": [
+      967,
+      265,
+      1546,
+      650
+    ]
+  },
+  {
+    "file": "assets/photos/weather.webp",
+    "source_asset": "image72",
+    "source_slides": [
+      11
+    ],
+    "original_size": [
+      3600,
+      2400
+    ]
+  },
+  {
+    "file": "assets/photos/weather-interview.webp",
+    "source_asset": "image69",
+    "source_slides": [
+      11
+    ],
+    "original_size": [
+      1623,
+      1080
+    ]
+  },
+  {
+    "file": "assets/photos/agent-hackathon.webp",
+    "source_asset": "image73",
+    "source_slides": [
+      11
+    ],
+    "original_size": [
+      5184,
+      3456
+    ]
+  },
+  {
+    "file": "assets/photos/coding.webp",
+    "source_asset": "image84",
+    "source_slides": [
+      13
+    ],
+    "original_size": [
+      645,
+      421
+    ]
+  },
+  {
+    "file": "assets/photos/research.webp",
+    "source_asset": "image134",
+    "source_slides": [
+      20
+    ],
+    "original_size": [
+      874,
+      505
+    ]
+  },
+  {
+    "file": "assets/photos/outreach.webp",
+    "source_asset": "image110",
+    "source_slides": [
+      18
+    ],
+    "original_size": [
+      1265,
+      949
+    ]
+  },
+  {
+    "file": "assets/photos/books.webp",
+    "source_asset": "image90",
+    "source_slides": [
+      15
+    ],
+    "original_size": [
+      580,
+      437
+    ]
+  },
+  {
+    "file": "assets/photos/book-launch.webp",
+    "source_asset": "image91",
+    "source_slides": [
+      15
+    ],
+    "original_size": [
+      1252,
+      927
+    ]
+  },
+  {
+    "file": "assets/photos/team.webp",
+    "source_asset": "image13",
+    "source_slides": [
+      2,
+      9
+    ],
+    "original_size": [
+      1057,
+      836
+    ]
+  },
+  {
+    "file": "assets/photos/campus.webp",
+    "source_asset": "image149",
+    "source_slides": [
+      22
+    ],
+    "original_size": [
+      953,
+      637
+    ]
+  },
+  {
+    "file": "assets/photos/science-association.webp",
+    "source_asset": "image59",
+    "source_slides": [
+      8
+    ],
+    "original_size": [
+      4096,
+      2304
+    ]
+  },
+  {
+    "file": "assets/photos/science-exchange.webp",
+    "source_asset": "image61",
+    "source_slides": [
+      8
+    ],
+    "original_size": [
+      6000,
+      4002
+    ]
+  },
+  {
+    "file": "assets/photos/summer-classroom.webp",
+    "source_asset": "image67",
+    "source_slides": [
+      10
+    ],
+    "crop_pixels": [
+      39,
+      611,
+      641,
+      1014
+    ]
+  }
+]

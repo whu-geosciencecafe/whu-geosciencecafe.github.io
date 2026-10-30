@@ -1,0 +1,14 @@
+[
+  {"id":"community","category":"community","categoryLabel":"社团生活","title":"谈笑间，成就梦想","image":"assets/photos/community.webp","description":"成员与李德仁院士在交流现场手持社团旗帜合影。","sourceSlides":[21]},
+  {"id":"agent","category":"innovation","categoryLabel":"创新实践","title":"把好想法做成 AI Agent","image":"assets/photos/agent-hackathon.webp","description":"AI Agent 现场开发比赛，技术分享与共同实践在这里发生。","sourceSlides":[12]},
+  {"id":"summer","category":"exchange","categoryLabel":"国际与合作","title":"与世界相遇的夏天","image":"assets/photos/summer-school.webp","description":"地球空间信息科学国际暑期学校文化节，来自不同国家的参与者合影。","sourceSlides":[10]},
+  {"id":"weather","category":"academic","categoryLabel":"学术交流","title":"走近气象科普","image":"assets/photos/weather.webp","description":"气象科普活动结束后，讲者与参与者在会场合影。","sourceSlides":[11]},
+  {"id":"coding","category":"innovation","categoryLabel":"创新实践","title":"代码里的新可能","image":"assets/photos/coding.webp","description":"Vibe Coding 黑客马拉松活动现场合影。","sourceSlides":[13]},
+  {"id":"classroom","category":"exchange","categoryLabel":"国际与合作","title":"同一间课堂，不同的视角","image":"assets/photos/summer-classroom.webp","description":"国际暑期学校的学术交流课堂。","sourceSlides":[10]},
+  {"id":"conversation","category":"academic","categoryLabel":"学术交流","title":"在交流中，走近科研","image":"assets/photos/conversation.webp","description":"李德仁在 Café 交流现场，分享科研经历与思考。","sourceSlides":[4]},
+  {"id":"outreach","category":"community","categoryLabel":"社团生活","title":"让科学走出讲堂","image":"assets/photos/outreach.webp","description":"科普讲解活动中，参与者参观展品、交流科学问题。","sourceSlides":[18]},
+  {"id":"book-launch","category":"community","categoryLabel":"社团生活","title":"把科研故事，讲给更多人听","image":"assets/photos/book-launch.webp","description":"《我的科研故事》新书发布活动现场合影。","sourceSlides":[15]},
+  {"id":"research","category":"academic","categoryLabel":"学术交流","title":"一张桌前，分享好问题","image":"assets/photos/research.webp","description":"围桌交流的讲者与社团成员。","sourceSlides":[20]},
+  {"id":"association","category":"exchange","categoryLabel":"国际与合作","title":"走出校园，与同行交流","image":"assets/photos/science-association.webp","description":"成员参加科协交流活动，在合作中分享经验。","sourceSlides":[8]},
+  {"id":"team","category":"community","categoryLabel":"社团生活","title":"让探索有了同行者","image":"assets/photos/team.webp","description":"一起参与、共同成长的 Café 成员。","sourceSlides":[2,9]}
+]
